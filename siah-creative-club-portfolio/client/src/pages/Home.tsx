@@ -123,14 +123,13 @@ export default function Home() {
 
       <main id="top" className="editorial-main">
         <section className="editorial-hero editorial-wrap">
-          <div className="editorial-hero-copy"><Label>Creative club / Est. 2024</Label><h1>SIAH</h1><div className="editorial-rule" /><p>A tactile editorial of work, atmosphere &amp; craft - assembled for those who notice the details.</p><div className="editorial-hero-meta"><span>Director - Hera</span><span>Manager - Khatira</span><span>Scroll <ArrowDownRight size={14} /></span></div></div>
-          <div className="editorial-hero-image"><Photo src={media.team} alt="Hera and Khatira working together" /><div className="editorial-image-note">Hera &amp; Khatira</div><span className="editorial-page-count">001 / 008</span></div>
+          <div className="editorial-hero-copy"><Label>Creative club / Est. 2024</Label><h1>SIAH</h1><div className="editorial-rule" /><p>A tactile editorial of work, atmosphere &amp; craft - assembled for those who notice the details.</p><div className="editorial-hero-meta"><span>Manager - Khatira</span><span>Scroll <ArrowDownRight size={14} /></span></div></div>
+          <div className="editorial-hero-image"><Photo src={media.team} alt="Khatira working" /><div className="editorial-image-note">Khatira</div><span className="editorial-page-count">001 / 008</span></div>
         </section>
 
         <section id="about" className="editorial-section editorial-wrap"><div className="editorial-section-heading"><Label>02 / Our people</Label><div className="editorial-rule" /><h2>Two hands, one vision.</h2></div><div className="editorial-team-grid">
           <div><Photo src={media.meet} alt="The team together" /><Caption title="Meet the Team" detail="SIAH - 2026" /></div>
           <div><Photo src={media.khatira} alt="Khatira Ghasemi" /><Caption title="Khatira Ghasemi" detail="Manager of All" /></div>
-          <div><Photo src={media.hera} alt="Hera Amiri" /><Caption title="Hera Amiri" detail="Art Director of All" /></div>
           <div><Photo src={media.extra10} alt="The studio portrait" /><Caption title="The Studio" detail="In Session" /></div>
         </div></section>
 
@@ -149,7 +148,7 @@ export default function Home() {
         <section id="film" className="editorial-section editorial-wrap editorial-video-section"><Label>09 / Film</Label><div className="editorial-project-heading"><h2>Cinema frames.</h2><p>Stories that need to move.</p></div><div className="editorial-video-grid"><CinemaPoster src={media.cinemaFlower} alt="Flower Shop poster" title="Flower Shop" tag="Reel" /><CinemaPoster src={media.cinemaPadel} alt="Padel Friends poster" title="Padel Friends" tag="Reel" /></div></section>
       </main>
 
-      <footer id="contact" className="editorial-footer"><div className="editorial-wrap"><Label>08 / Thank you</Label><h2>Let&apos;s make something<br /><em>worth keeping.</em></h2><div className="editorial-contact-info"><div><span>Director</span><strong>Hera</strong></div><div><span>Manager</span><strong>Khatira</strong></div><div><span>Studio</span><strong>SIAH Creative Club</strong></div><div><span>Practice</span><strong>Photography · Film</strong></div></div><div className="editorial-contact-links"><a href="https://www.instagram.com/siahcreativeclub" target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={14} /></a><a href="https://siahcreativeclub.com/" target="_blank" rel="noreferrer">Website <ArrowUpRight size={14} /></a><a href="mailto:hello@siahcreativeclub.com">Email <ArrowUpRight size={14} /></a></div></div></footer>
+      <footer id="contact" className="editorial-footer"><div className="editorial-wrap"><Label>08 / Thank you</Label><h2>Let&apos;s make something<br /><em>worth keeping.</em></h2><div className="editorial-contact-info"><div><span>Manager</span><strong>Khatira</strong></div><div><span>Studio</span><strong>SIAH Creative Club</strong></div><div><span>Practice</span><strong>Photography · Film</strong></div></div><div className="editorial-contact-links"><a href="https://www.instagram.com/siahcreativeclub" target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={14} /></a><a href="https://siahcreativeclub.com/" target="_blank" rel="noreferrer">Website <ArrowUpRight size={14} /></a><a href="mailto:hello@siahcreativeclub.com">Email <ArrowUpRight size={14} /></a></div></div></footer>
 
       {activeVideo && <div className="editorial-modal" onClick={() => setActiveVideo(null)}><div className="editorial-modal-inner" onClick={(event) => event.stopPropagation()}><button onClick={() => setActiveVideo(null)} aria-label="Close video"><X size={18} /></button><video controls autoPlay poster={activeVideo.image} src={activeVideo.src} /><strong>{activeVideo.title}</strong><span>{activeVideo.label}</span></div></div>}
     </div>
