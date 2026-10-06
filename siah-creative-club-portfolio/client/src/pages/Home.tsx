@@ -9,7 +9,17 @@ const media = {
   team: "/media/team/team-picture.jpeg",
   hera: "/media/team/hera-amiri.jpeg",
   khatira: "/media/team/khatira-ghasemi.jpeg",
+  khatiraCEO: "/media/team/khatira-ceo.jpeg",
   meet: "/media/team/meet-the-team.jpeg",
+  jerome: "/media/team/jerome-web-developer.jpeg",
+  behnaz: "/media/team/behnaz-manager.jpeg",
+  asma: "/media/team/asma-social-media-manager.jpeg",
+  asmaGroup: "/media/team/asma-asra-salma-social-media-managers.jpeg",
+  ahmad: "/media/team/ahmad-photographer-videographer.jpeg",
+  atrin: "/media/team/atrin.jpeg",
+  hamed: "/media/team/hamed-ardalan-investors.jpeg",
+  paniz: "/media/team/paniz-photographer-videographer.jpeg",
+  zahra: "/media/team/zahra-art-director.jpeg",
   cafe: "/media/cafe/cafe-main.jpeg",
   cafeDetail: "/media/cafe/cafe-detail.jpeg",
   perfume1: "/media/perfume/perfume-1.jpeg",
@@ -129,7 +139,16 @@ export default function Home() {
 
         <section id="about" className="editorial-section editorial-wrap"><div className="editorial-section-heading"><Label>02 / Our people</Label><div className="editorial-rule" /><h2>Two hands, one vision.</h2></div><div className="editorial-team-grid">
           <div><Photo src={media.meet} alt="The team together" /><Caption title="Meet the Team" detail="SIAH - 2026" /></div>
-          <div><Photo src={media.khatira} alt="Khatira Ghasemi" /><Caption title="Khatira Ghasemi" detail="Manager of All" /></div>
+          <div><Photo src={media.khatiraCEO} alt="Khatira CEO" /><Caption title="Khatira" detail="CEO" /></div>
+          <div><Photo src={media.jerome} alt="Jerome Web Developer" /><Caption title="Jerome" detail="Web Developer" /></div>
+          <div><Photo src={media.behnaz} alt="Behnaz Manager" /><Caption title="Behnaz" detail="Manager" /></div>
+          <div><Photo src={media.ahmad} alt="Ahmad Photographer & Videographer" /><Caption title="Ahmad" detail="Photographer & Videographer" /></div>
+          <div><Photo src={media.asma} alt="Asma Social Media Manager" /><Caption title="Asma" detail="Social Media Manager" /></div>
+          <div><Photo src={media.asmaGroup} alt="Asma, Asra & Salma Social Media Managers" /><Caption title="Asma, Asra & Salma" detail="Social Media Managers" /></div>
+          <div><Photo src={media.atrin} alt="Atrin" /><Caption title="Atrin" detail="Creative Team" /></div>
+          <div><Photo src={media.hamed} alt="Hamed & Ardalan Investors" /><Caption title="Hamed & Ardalan" detail="Investors" /></div>
+          <div><Photo src={media.paniz} alt="Paniz Photographer & Videographer" /><Caption title="Paniz" detail="Photographer & Videographer" /></div>
+          <div><Photo src={media.zahra} alt="Zahra Art Director" /><Caption title="Zahra" detail="Art Director" /></div>
           <div><Photo src={media.extra10} alt="The studio portrait" /><Caption title="The Studio" detail="In Session" /></div>
         </div></section>
 
