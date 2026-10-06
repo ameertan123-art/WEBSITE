@@ -6,11 +6,11 @@ import CursorPulse from "@/components/CursorPulse";
 type MediaItem = { title: string; label: string; image: string; src: string };
 
 const media = {
-  team: "/media/team/padel-court-team.jpeg",
+  team: "/media/team/meet-the-team-whatsapp.jpeg",
   hera: "/media/team/hera-amiri.jpeg",
   khatira: "/media/team/khatira-ghasemi.jpeg",
   khatiraCEO: "/media/team/khatira-ceo.jpeg",
-  meet: "/media/team/meet-the-team-whatsapp.jpeg",
+  meet: "/media/team/padel-court-team.jpeg",
   jerome: "/media/team/jerome-web-developer.jpeg",
   behnaz: "/media/team/behnaz-manager.jpeg",
   asma: "/media/team/asma-social-media-manager.jpeg",
