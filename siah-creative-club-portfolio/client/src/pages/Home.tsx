@@ -6,7 +6,7 @@ import CursorPulse from "@/components/CursorPulse";
 type MediaItem = { title: string; label: string; image: string; src: string };
 
 const media = {
-  team: "/media/team/meet-the-team-whatsapp.jpeg",
+  team: "/media/team/team-hero-replacement.jpeg",
   hera: "/media/team/hera-amiri.jpeg",
   khatira: "/media/team/khatira-ghasemi.jpeg",
   khatiraCEO: "/media/team/khatira-ceo.jpeg",
@@ -16,7 +16,8 @@ const media = {
   asma: "/media/team/asma-social-media-manager.jpeg",
   ahmad: "/media/team/ahmad-photographer-videographer.jpeg",
   atrin: "/media/team/atrin.jpeg",
-  hamed: "/media/team/hamed-ardalan-investors.jpeg",
+  maziyar: "/media/team/maziyar-graphic-designer.jpeg",
+  ayaan: "/media/team/ayaan-set-coordinator.jpeg",
   paniz: "/media/team/paniz-photographer-videographer.jpeg",
   zahra: "/media/team/zahra-art-director.jpeg",
   cafe: "/media/cafe/cafe-main.jpeg",
@@ -143,8 +144,9 @@ export default function Home() {
           <div><Photo src={media.behnaz} alt="Behnaz Manager" /><Caption title="Behnaz" detail="Manager" /></div>
           <div><Photo src={media.ahmad} alt="Ahmad Photographer & Videographer" /><Caption title="Ahmad" detail="Photographer & Videographer" /></div>
           <div><Photo src={media.asma} alt="Asma Social Media Manager" /><Caption title="Asma" detail="Social Media Manager" /></div>
+          <div><Photo src={media.maziyar} alt="Maziyar Graphic Designer" /><Caption title="Maziyar" detail="Graphic Designer" /></div>
+          <div><Photo src={media.ayaan} alt="Ayaan Set Coordinator" /><Caption title="Ayaan" detail="Set Coordinator" /></div>
           <div><Photo src={media.atrin} alt="Atrin" /><Caption title="Atrin" detail="Creative Team" /></div>
-          <div><Photo src={media.hamed} alt="Hamed & Ardalan Investors" /><Caption title="Hamed & Ardalan" detail="Investors" /></div>
           <div><Photo src={media.paniz} alt="Paniz Photographer & Videographer" /><Caption title="Paniz" detail="Photographer & Videographer" /></div>
           <div><Photo src={media.zahra} alt="Zahra Art Director" /><Caption title="Zahra" detail="Art Director" /></div>
           <div><Photo src={media.extra10} alt="The studio portrait" /><Caption title="The Studio" detail="In Session" /></div>
