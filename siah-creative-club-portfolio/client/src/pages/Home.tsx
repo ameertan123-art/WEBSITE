@@ -10,7 +10,7 @@ const media = {
   hera: "/media/team/hera-amiri.jpeg",
   khatira: "/media/team/khatira-ghasemi.jpeg",
   khatiraCEO: "/media/team/khatira-ceo.jpeg",
-  meet: "/media/team/padel-court-team.jpeg",
+  meet: "/media/team/meet-the-team-whatsapp.jpeg",
   jerome: "/media/team/jerome-web-developer.jpeg",
   behnaz: "/media/team/behnaz-manager.jpeg",
   asma: "/media/team/asma-social-media-manager.jpeg",
