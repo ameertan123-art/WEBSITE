@@ -6,15 +6,14 @@ import CursorPulse from "@/components/CursorPulse";
 type MediaItem = { title: string; label: string; image: string; src: string };
 
 const media = {
-  team: "/media/team/team-picture.jpeg",
+  team: "/media/team/padel-court-team.jpeg",
   hera: "/media/team/hera-amiri.jpeg",
   khatira: "/media/team/khatira-ghasemi.jpeg",
   khatiraCEO: "/media/team/khatira-ceo.jpeg",
-  meet: "/media/team/meet-the-team.jpeg",
+  meet: "/media/team/meet-the-team-whatsapp.jpeg",
   jerome: "/media/team/jerome-web-developer.jpeg",
   behnaz: "/media/team/behnaz-manager.jpeg",
   asma: "/media/team/asma-social-media-manager.jpeg",
-  asmaGroup: "/media/team/asma-asra-salma-social-media-managers.jpeg",
   ahmad: "/media/team/ahmad-photographer-videographer.jpeg",
   atrin: "/media/team/atrin.jpeg",
   hamed: "/media/team/hamed-ardalan-investors.jpeg",
@@ -144,7 +143,6 @@ export default function Home() {
           <div><Photo src={media.behnaz} alt="Behnaz Manager" /><Caption title="Behnaz" detail="Manager" /></div>
           <div><Photo src={media.ahmad} alt="Ahmad Photographer & Videographer" /><Caption title="Ahmad" detail="Photographer & Videographer" /></div>
           <div><Photo src={media.asma} alt="Asma Social Media Manager" /><Caption title="Asma" detail="Social Media Manager" /></div>
-          <div><Photo src={media.asmaGroup} alt="Asma, Asra & Salma Social Media Managers" /><Caption title="Asma, Asra & Salma" detail="Social Media Managers" /></div>
           <div><Photo src={media.atrin} alt="Atrin" /><Caption title="Atrin" detail="Creative Team" /></div>
           <div><Photo src={media.hamed} alt="Hamed & Ardalan Investors" /><Caption title="Hamed & Ardalan" detail="Investors" /></div>
           <div><Photo src={media.paniz} alt="Paniz Photographer & Videographer" /><Caption title="Paniz" detail="Photographer & Videographer" /></div>
