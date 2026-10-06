@@ -6,7 +6,7 @@ import CursorPulse from "@/components/CursorPulse";
 type MediaItem = { title: string; label: string; image: string; src: string };
 
 const media = {
-  team: "/media/team/team-hero-replacement.jpeg",
+  team: "/media/team/team-top-hero.jpeg",
   hera: "/media/team/hera-amiri.jpeg",
   khatira: "/media/team/khatira-ghasemi.jpeg",
   khatiraCEO: "/media/team/khatira-ceo.jpeg",
